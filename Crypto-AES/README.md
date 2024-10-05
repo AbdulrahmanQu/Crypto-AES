@@ -1,6 +1,70 @@
 # Crypto-AES
 
-**Crypto-AES** is a simple Python application that allows users to encrypt and decrypt messages using AES with a 256-bit key. The program features a user-friendly graphical interface built with `tkinter`, enabling seamless encryption and decryption operations.
+## Overview
+
+**Crypto-AES** is a Python-based program that allows users to encrypt and decrypt messages using AES encryption with a 256-bit key. It includes a simple graphical user interface (GUI) for ease of use, where users can input plaintext, provide keys, and see the resulting ciphertext or decrypted plaintext.
+
+### Programming Language
+- **Python**
+
+### Libraries Used
+- **cryptography**: For AES encryption and decryption.
+- **tkinter**: For creating the GUI.
+
+## Features
+
+- **Message Input**: Users can enter the plaintext message they wish to encrypt.
+- **Key Input**: Users can provide a 256-bit (32-byte) key in hexadecimal format.
+- **Encryption**: Encrypts the input message using the provided key and displays the ciphertext in hexadecimal format.
+- **Decryption**: Decrypts the ciphertext using the provided key to retrieve the original plaintext message.
+
+## Prerequisites
+
+Before running the program, ensure that Python is installed on your system. Additionally, you need to install the required libraries.
+
+### Install `cryptography`:
+
+# Crypto-AES
+
+## Overview
+
+**Crypto-AES** is a Python-based program that enables users to encrypt and decrypt messages using the AES algorithm with a 256-bit key. The program features a simple graphical user interface (GUI) for ease of use, allowing users to input plaintext messages, provide encryption keys, and see the encrypted or decrypted results.
+
+### Programming Language
+- **Python**
+
+### Libraries Used
+- **cryptography**: For AES encryption and decryption.
+- **tkinter**: For creating the GUI.
+
+## Features
+
+- **Message Input**: Users can enter the plaintext message they wish to encrypt.
+- **Key Input**: Users can provide a 256-bit (32-byte) key in hexadecimal format.
+- **Encryption**: Encrypts the input message using the provided key and displays the ciphertext in hexadecimal format.
+- **Decryption**: Decrypts the ciphertext using the provided key to retrieve the original plaintext message.
+
+## Prerequisites
+
+Before running the program, ensure that you have Python installed on your system. Additionally, you will need to install the required libraries.
+
+### Install `cryptography`:
+
+```bash
+pip install cryptography
+```
+
+### Install `tkinter`:
+
+`tkinter` usually comes pre-installed with Python. If not, you can install it using your system's package manager.
+
+#### For Debian/Ubuntu:
+
+```bash
+sudo apt-get install python3-tk
+```
+
+
 
 ## Table of Contents
 
